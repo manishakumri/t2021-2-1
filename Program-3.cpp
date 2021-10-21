@@ -7,9 +7,10 @@ void fun(int n){
     }else{
         n = 2*(n-1);
     }
+     cout<<",";
     for (int i=1;i<n;i++){
        if(i%2)
-            cout<<i<<" ";
+            cout<<","<<i;
     }
 }
 
